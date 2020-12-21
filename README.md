@@ -35,11 +35,10 @@ http://localhost:4000/student/add -> Para petición http de tipo POST que recibe
 
 http://localhost:4000/student/edit/:id -> Pata petición http de tipo GET que recibe como parámetro la id de un estudiante y retorna la información de este.
 
-http://localhost:4000/student/update:id -> Para petición http de tipo POST que recibe como parámetro la id de un estudiante y en el cuerpo la información de este,
-                                           con el fin de poder actualizar su información.
+http://localhost:4000/student/update:id -> Para petición http de tipo POST que recibe como parámetro la id de un estudiante y en el cuerpo la información de este, con el fin de poder actualizar su información.
                                            
 http://localhost:4000/student/delete:id -> Para petición http de tipo DELETE que recibe como parámetro la id de un estudiante para proceder a eliminar en la base de datos.
 
-http://localhost:4000/student/average/:course -> Para petición http de tipo GET que recibe como parámetro el nombre de un curso y retorna el promedio de las notas de los                                                            estudiantes que lo han cursado.
+http://localhost:4000/student/average/:course -> Para petición http de tipo GET que recibe como parámetro el nombre de un curso y retorna el promedio de las notas de los estudiantes que lo han cursado.
 
-http://localhost:4000/student/approx/:course -> Para petición http de tipo GET que recibe como parámetro el nombre de un curso. Esto, para actualizar las notas de los                                                           estudiantes queo btuvieron un 2.95 para dejárselas en 3.
+http://localhost:4000/student/approx/:course -> Para petición http de tipo GET que recibe como parámetro el nombre de un curso. Esto, para actualizar las notas de los          estudiantes queo btuvieron un 2.95 para dejárselas en 3.
