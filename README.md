@@ -10,7 +10,8 @@ tenga instalado el sistema de contenerización (como por ejemplo Docker).
 ### Pasos iniciales
 Para consumir esta API es importante realizar los siguientes pasos de forma previa:
 1. Clonar este repositorio (puesto que no se encuentra desplegada en la web).
-2. Abriendo la terminal en la raíz de este proyecto ejecutar el comando docker-compose up
+2. Abriendo la terminal en la raíz de este proyecto ejecutar el comando docker-compose build
+3. Luego ejecutar el comando docker-compose up
 
 ### Estructura de datos
 Esta api en la base de datos, trabaja con objetos llamados student, cuyos valores que contiene son los siguientes:
