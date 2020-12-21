@@ -13,7 +13,7 @@ Para consumir esta API es importante realizar los siguientes pasos de forma prev
 2. Abriendo la terminal en la raíz de este proyecto ejecutar el comando docker-compose up
 
 ### Estructura de datos
-Esta api en la base de datos, trabaja con objetos llamados student, cuyos valores que contiene son los sguientes:
+Esta api en la base de datos, trabaja con objetos llamados student, cuyos valores que contiene son los siguientes:
 
 _id: {type: String}
 
@@ -41,4 +41,4 @@ http://localhost:4000/student/delete:id -> Para petición http de tipo DELETE qu
 
 http://localhost:4000/student/average/:course -> Para petición http de tipo GET que recibe como parámetro el nombre de un curso y retorna el promedio de las notas de los estudiantes que lo han cursado.
 
-http://localhost:4000/student/approx/:course -> Para petición http de tipo GET que recibe como parámetro el nombre de un curso. Esto, para actualizar las notas de los          estudiantes queo btuvieron un 2.95 para dejárselas en 3.
+http://localhost:4000/student/approx/:course -> Para petición http de tipo GET que recibe como parámetro el nombre de un curso. Esto, para actualizar las notas de los estudiantes queo obtuvieron un 2.95 para dejárselas en 3.
